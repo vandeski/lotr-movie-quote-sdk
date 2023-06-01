@@ -1,0 +1,31 @@
+{
+  "name": "lotr-movie-quote-sdk",
+  "version": "1.0.0",
+  "description": "JavaScript SDK for accessing the Lord of the Rings' movies and their quotes.",
+  "type": "module",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vandeski/lotr-movie-quote-sdk.git"
+  },
+  "keywords": [
+    "lotr",
+    "movie",
+    "quotes",
+    "javascript",
+    "node.js",
+    "sdk"
+  ],
+  "author": "Michael J. Vadney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vandeski/lotr-movie-quote-sdk/issues"
+  },
+  "homepage": "https://github.com/vandeski/lotr-movie-quote-sdk#readme"
+}
