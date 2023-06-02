@@ -1,6 +1,6 @@
 # Introduction
 
-
+JavaScript SDK for accessing the Lord of the Rings' movies and their quotes. Information for the SDK was provided via [The One API](https://the-one-api.dev/). 
 
 ## Project Goals
 
