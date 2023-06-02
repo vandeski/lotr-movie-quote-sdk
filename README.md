@@ -6,7 +6,7 @@ JavaScript SDK for accessing the Lord of the Rings' movies and their quotes. Inf
 ## Installation
 
 ```
-npm install TBD
+npm i lotr-movie-quote-sdk
 ```
 
 ## Initialization

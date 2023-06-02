@@ -9,7 +9,7 @@ export default class lotrMovieQuoteApi {
         "WARNING: You have not specified an ACCESS_TOKEN from https://the-one-api.dev/account."
       );
       console.warn(
-        "It is required in order to use this SDK. For more information, please visit "
+        "It is required in order to use this SDK. For more information, please visit https://www.npmjs.com/package/lotr-movie-quote-sdk"
       );
       return undefined;
     }
