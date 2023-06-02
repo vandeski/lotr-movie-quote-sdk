@@ -1,6 +1,6 @@
 {
   "name": "lotr-movie-quote-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JavaScript SDK for accessing the Lord of the Rings' movies and their quotes.",
   "type": "module",
   "main": "src/index.js",
