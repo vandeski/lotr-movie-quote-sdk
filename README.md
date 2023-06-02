@@ -17,13 +17,25 @@ Before getting started with this SDK, you will need to sign up for a [The One Ap
 After signing up you will receive an access token that can be used to initialize the SDK, like the example below:
 
 ```
-import SDK from 'sdk';
-const LOTR = new SDK('YOUR_ACCESS_TOKEN');
+import lotr from 'lotr-movie-quote-sdk';
+const LOTR = new lotr('YOUR_ACCESS_TOKEN');
 ```
 
 ## Usage
 
 There are two categories of information you can receive from this SDK; `movie` or `quote`
+
+Note: Each method returns a promise that must be handled. For example:
+
+```
+console.log(await LOTR.movies.getAll())
+```
+
+or
+
+```
+LOTR.movies.getAll().then((movies) => console.log(movies))
+```
 
 ### Movie
 
